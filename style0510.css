@@ -1,0 +1,200 @@
+/*https://parkjh7764.tistory.com/80
+License: none (public domain)
+*/
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--------- resetcode end ---------*/
+
+header {
+	width:1280px;
+	margin:0px auto;
+}
+
+ header > :first-child{
+	display: flex;
+	justify-content: flex-end;
+	gap: 16px;
+	font-weight:nomal;
+	font-size:10px;
+	margin: 16px 0px;
+ }
+
+header > div {
+	display: flex;
+	justify-content:space-between;
+	margin: 32px 0px;
+}
+ header > div > #header2{
+	display: flex;
+	font-weight: bold;
+	font-size: 25px;
+	font-style:italic;
+ }
+
+header > div > #header2-2{
+	display: flex;
+	justify-content: flex-end;
+	font-weight: bold;
+	font-size: 15px;
+	gap:16px; 
+}
+
+header > div > #header3{
+	display: flex;
+	font-weight:bold;
+	gap:32px;
+}
+
+#banner-main{
+	width: 100%;
+	height: 480px;
+	background-color: brown;
+
+	background-image: url("./interior.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+#container-image{
+	display: flex;
+	gap:16px;
+	margin: 24px;
+}
+
+.item-box{
+	flex: 1;
+}
+
+.item-box > img{
+	width: 100%;
+	height: 200px;
+	border-radius: 16px;
+	object-fit: cover;
+	object-position: center;
+	margin-bottom:8px;
+}
+
+.item-box > p{
+	text-align: center;
+}
+
+
+#container-image2{
+	display:flex;
+	gap:16px;
+	margin:16px;
+}
+
+.item-box2{
+	flex: 1;
+}
+
+.item-box2{
+}
+
+.item-box2 > p{
+	text-align: center;
+}
+
+.item-box2 > img{
+	width: 100%;
+	height: 150px;
+	border-radius: 16px;
+	object-fit: cover;
+	object-position: center;
+	margin-bottom:8px;
+}
+
+/* 추가된 코드 */
+
+
+#container-animal{
+	width: 1280px;
+	margin:0 auto;
+}
+
+
+/*-----------------*/
+#container-place{
+	width: 1280px;
+	margin:0 auto;
+	font-weight: bolder;
+}
+
+#container-place > p{
+	width: 100px;
+	margin:24px;
+}
+
+#container-america{
+	display:flex;
+	gap:24px;
+	margin:24px;
+	
+}
+
+
+.item-box3 > img{
+	width: 100%;
+	height: 300px;
+	
+	object-position: center;
+	margin-bottom:16px;
+text-align: center;
+}
+
+/* +code */
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	color:#fff;
+	text-align: center;
+	line-height: 100px;
+}
